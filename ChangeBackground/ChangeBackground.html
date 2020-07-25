@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body style="background:red" id="pagebody">
+	<div style="text-align:center; margin-top:300px;">
+		<button name="ChangeBackground" onclick="ChangeBackground()" style="font-size:20px">Click Me to change the background</button>
+	</div>
+	<script>
+		function ChangeBackground()
+		{
+			//generate random rgb values
+			var rVal = getRandomNumber();
+			var gVal = getRandomNumber();
+			var bVal = getRandomNumber();
+			document.getElementById("pagebody").style.background='rgb('+ rVal + ',' + gVal + ',' + bVal + ')';			
+		}
+		
+		function getRandomNumber()
+		{
+			//using Math.random() function to generate random values between 0 and 255
+			return Math.floor(Math.random() * 256);
+		}
+	</script>
+</body>
+</html>
