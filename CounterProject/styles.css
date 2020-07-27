@@ -1,0 +1,19 @@
+.button{
+	background-color:blue; 
+	font-size:26px; 
+	font-family: Arial, Helvetica;
+	padding:10px;
+	margin:20px;
+}
+
+.cCount{
+	color:red; 
+	font-size:200px; 
+	font-weight:bold;
+}
+
+.ctext{
+	color:white; 
+	font-size:60px; 
+	font-weight:bold;
+}
